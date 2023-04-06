@@ -15,20 +15,6 @@ const ViewPage = () => {
 
   const getData = getStorage[getID];
 
-  // Query parse...
-
-  // const getLocation = useLocation();
-
-  // const getURLParams = new URLSearchParams(getLocation.search);
-
-  // const getID = getURLParams.get("id");
-
-  // console.log(getID);
-
-  // const getData = getStorage[getID];
-
-  // console.log(getLocation.search);
-
   const deleteTodo = () => {
     getStorage.splice(getID, 1);
 
